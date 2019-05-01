@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .contendor {
+
+            height: 500px;
+            max-height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow-y: hidden;
+
+        }
+
+        .container {
+
+            width: 500px;
+            height: 300px;
+            padding: 20px;
+            border: 1px solid orange;
+            margin: 20px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            align-items: center;
+
+        }
+
+        .elemento {
+
+            order: 2;
+            height: 40px;
+            width: 100px;
+            margin: 5px;
+            text-align: center;
+            background-color: burlywood;
+
+        }
+
+        .elemento2 {
+
+
+            order: 1;
+            align-self:flex-start;
+            
+
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="contendor">
+        <div class="container">
+            <div class="elemento elemento1"><label for="">1</label></div>
+            <div class="elemento elemento2"><label for="">2</label></div>
+            <div class="elemento elemento3"><label for="">3</label></div>
+            <div class="elemento elemento4"><label for="">4</label></div>
+            <div class="elemento elemento5"><label for="">5</label></div>
+        </div>
+    </div>
+
+</body>
+
+</html>
